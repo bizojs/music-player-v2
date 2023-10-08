@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'AR One Sans', sans-serif;
+    @apply text-white
+}
+
+:root {
+    --toastWidth: 500px;
+}
